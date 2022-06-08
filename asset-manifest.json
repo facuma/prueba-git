@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prueba-git/static/css/main.073c9b0a.css",
+    "main.js": "/prueba-git/static/js/main.53ef27d2.js",
+    "static/js/787.e32c572a.chunk.js": "/prueba-git/static/js/787.e32c572a.chunk.js",
+    "index.html": "/prueba-git/index.html",
+    "main.073c9b0a.css.map": "/prueba-git/static/css/main.073c9b0a.css.map",
+    "main.53ef27d2.js.map": "/prueba-git/static/js/main.53ef27d2.js.map",
+    "787.e32c572a.chunk.js.map": "/prueba-git/static/js/787.e32c572a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.53ef27d2.js"
+  ]
+}
