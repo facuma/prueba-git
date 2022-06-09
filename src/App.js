@@ -4,7 +4,9 @@ import { CardList } from './Components';
 function App() {
   return (
     <div className="App">
-      <CardList />
+      <div className="background"> 
+        <CardList />
+      </div>
     </div>
   );
 }

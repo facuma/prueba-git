@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: url(./Components/assets/img1.jpg);
+  background-size: cover;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

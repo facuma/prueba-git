@@ -1,14 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container-carrousel {
-    padding: 11rem;
-    width: auto;
+    display: flex;
+    justify-items: center;
     align-items: center;
+    width: auto;
     background-color: rgba(0, 0, 0, 0.301);
     backdrop-filter: blur(5px);
+    padding: 5rem 2rem;
 }
 
 .horizontal-list{
+    align-items: center;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+}
+@media only screen and (max-width: 768px) {
+    html{
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 10px;
+    }
+    .horizontal-list{
+       flex-direction: column;
+       justify-content: space-between;
+    }
+    
 }
 

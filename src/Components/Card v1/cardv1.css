@@ -14,8 +14,13 @@ html{
     box-shadow: 13px 13px 52px rgba(0, 0, 0, 0.2);
     border-radius: 1.31rem;
     width: 25rem;
-    height: 35rem;
+    height: auto;
+    min-height: 30rem;
     padding-bottom: 2.27rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
@@ -50,11 +55,9 @@ p{
     font-family: 'Poppins';
     font-size: 1rem;
     font-weight: 400;
-    text-align: left;
 }
 
 .text-section > h2 {
-    margin-top: 1.13rem;
     font-size: 1.50rem;
     font-weight: bold;
 }
@@ -63,8 +66,9 @@ p{
 }
 
 .button {
+    margin-top: auto;
     text-align: center;
-    margin-top: 2.00rem;
+    margin-bottom: 1.0rem;
 }
 
 .button > a {
@@ -76,6 +80,8 @@ p{
     font-size: 1.25rem;
     padding: 0.63rem 1.56rem ; 
     transition: background-color ease 200ms ;   
+    text-align: center;
+    
 }
 
 .button a:hover{
