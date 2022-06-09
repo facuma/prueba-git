@@ -1,0 +1,14 @@
+.container-carrousel {
+    padding: 11rem;
+    width: auto;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(5px);
+}
+
+.horizontal-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
