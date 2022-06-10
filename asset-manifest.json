@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/prueba-git/static/css/main.09548b44.css",
-    "main.js": "/prueba-git/static/js/main.f5336699.js",
+    "main.css": "/prueba-git/static/css/main.a9aa17ea.css",
+    "main.js": "/prueba-git/static/js/main.45242529.js",
     "static/js/787.e32c572a.chunk.js": "/prueba-git/static/js/787.e32c572a.chunk.js",
     "static/media/img3.jpg": "/prueba-git/static/media/img3.ac456e4dfd9244d56a4c.jpg",
     "static/media/img2.jpg": "/prueba-git/static/media/img2.41db0dad4230632a9184.jpg",
     "static/media/img1.jpg": "/prueba-git/static/media/img1.f92161895fb1104111bb.jpg",
     "index.html": "/prueba-git/index.html",
-    "main.09548b44.css.map": "/prueba-git/static/css/main.09548b44.css.map",
-    "main.f5336699.js.map": "/prueba-git/static/js/main.f5336699.js.map",
+    "main.a9aa17ea.css.map": "/prueba-git/static/css/main.a9aa17ea.css.map",
+    "main.45242529.js.map": "/prueba-git/static/js/main.45242529.js.map",
     "787.e32c572a.chunk.js.map": "/prueba-git/static/js/787.e32c572a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09548b44.css",
-    "static/js/main.f5336699.js"
+    "static/css/main.a9aa17ea.css",
+    "static/js/main.45242529.js"
   ]
 }
