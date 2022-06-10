@@ -6,6 +6,7 @@ const Card1 = (props) => (
     <div>
         <div className="card-box">
             <div className="image-mask">
+                <img src={props.image} alt="" />
             </div>
             <div className="text-section">
                 <h2>{props.nombre} Club</h2>
