@@ -35,6 +35,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    backdrop-filter: drop-shadow(-5px -16px 50px rgba(0, 0, 0, 0.8));
 }
 
 .overlay {
