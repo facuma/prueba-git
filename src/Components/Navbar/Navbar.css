@@ -1,0 +1,159 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6rem;
+    box-shadow: 0px -5px 25px rgba(0, 0, 0, 0.23);
+    padding-block: 0.5rem;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.container-md {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+
+}
+
+.navbar-brand {
+    max-height: 5rem;
+    max-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    max-height: 4rem;
+    width: auto;
+}
+
+.container {
+    
+    width: 100%;
+}
+
+.navlist {
+    display: flex;
+    
+}
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+}
+
+.navlist > li {
+    padding: 1rem;
+}
+.navitem{
+    width: max-content;
+    font-size: .8rem;
+}
+
+.navitem a{
+    transition: color .3s ease;
+
+}
+.navitem a:hover{
+    color: #c21f5d;
+}
+
+.hamburger > span {
+    display: block;
+    width: 28px;
+    height: 2px;
+    border-radius: 9999px;
+    background-color: #000;
+}
+
+.hamburger > span:not(:last-child){
+    margin-bottom: 7px;
+
+}
+
+
+
+.hamburger, .hamburger > span {
+    transition: all .4s ease-in-out;
+}
+
+.hamburger.active {
+    transition-delay: 0.8s;
+    transform: rotate(45deg);
+}
+
+.hamburger.active > span:nth-child(2){
+    width: 0;
+}
+
+.hamburger.active > span:nth-child(1),
+.hamburger.active > span:nth-child(3){
+    transition-delay: .4s;
+}
+
+.hamburger.active > span:nth-child(1){
+    transform: translateY(9px);
+}
+.hamburger.active > span:nth-child(3){
+    transform: translateY(-9px) rotate(90deg);
+}
+
+
+@media screen and (max-width: 600px) {
+    .hamburger {
+      float: right;
+      display: block;
+    }
+  }
+  
+
+@media (max-width: 600px)  {
+    html{
+        font-size: 16px;
+    }
+
+    .navitem {
+        border-bottom: solid rgba(160, 160, 160, 0.322) .5px;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar{
+        position: fixed;
+
+    }
+    .navlist {
+        display: relative;
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 4rem;
+        width: 100vw;
+        align-items: center;
+        top: -100%;
+        transition: all 1s ease-out;
+        background-color: #fff;
+        z-index: 0;
+    }
+    .toggle.active {
+        display: block;
+        background-color: #020202;
+
+    }
+    .navlist.active{
+        display: flex;
+        background-color: #fff;
+        top: 5rem;
+    }
+    .navlist a {
+        color: #000;
+        text-align: center;
+        padding: .7rem 5rem;
+
+    }
+    
+}
+
+

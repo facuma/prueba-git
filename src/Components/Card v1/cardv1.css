@@ -38,6 +38,11 @@ html{
     backdrop-filter: drop-shadow(-5px -16px 50px rgba(0, 0, 0, 0.8));
 }
 
+.image-mask img{
+    overflow: hidden;
+    z-index: 0;
+}
+
 .overlay {
     position: absolute;
     width: 100%;
